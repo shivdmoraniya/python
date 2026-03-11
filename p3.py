@@ -3,11 +3,16 @@ s2=float(input("Enter Marks For Android:"))
 s3=float(input("Enter Marks For DAV:"))
 s4=float(input("Enter Marks For Computer Network:"))
 
+def result(marks):
+    assert percentage>35 "Backlock"
+result(
+
 total=s1+s2+s3+s4
 percentage=(total/400)*100
 
 if percentage >=90:
     grade="A+"
+    print("First Distinct")
 elif percentage >=80:
     grade="A"
 elif percentage >=70:
@@ -23,4 +28,4 @@ print("\n---Student Result ---")
 print("Total Marks:",total)
 print("Percentage Marks:",percentage)
 print("grade:",grade)
-print("First Distinct")
+
